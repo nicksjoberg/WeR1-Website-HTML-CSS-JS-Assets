@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#bg
+{
+	background-image: linear-gradient(to right top, #fd4031, #ff0053, #f80075, #e40098, #c000ba, #a140d8, #735cef, #0071ff, #0098ff, #00b7ff, #00d0f3, #10e6de);
+}
