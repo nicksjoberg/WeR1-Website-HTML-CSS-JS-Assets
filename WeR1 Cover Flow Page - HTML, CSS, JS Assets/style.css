@@ -1,0 +1,44 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+	height: 100vh;
+	weight: 100vh;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.img
+{
+  background-repeat : no-repeat;
+  width : 100vh;
+  height : 100vh;
+}
+
+#bgd
+{
+	background-image: linear-gradient(to right top, #4203ee, #0065ff, #0090ff, #00b0f5, #52cbe1);
+}
